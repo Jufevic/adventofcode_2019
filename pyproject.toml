@@ -1,0 +1,12 @@
+[project]
+name = "adventofcode-2021"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "advent-of-code-data>=2.1.0",
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.4",
+    "parse>=1.20.2",
+]
