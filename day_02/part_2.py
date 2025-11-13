@@ -33,12 +33,7 @@ def program_output(noun, verb, opcodes):
 
 for noun in range(100):
     for verb in range(100):
-        try:
-            output = program_output(noun, verb, deepcopy(initial_opcodes))
-        except IndexError:
-            pass
-        # print(noun, verb, output)
-        if output == 19690720:
+        if program_output(noun, verb, deepcopy(initial_opcodes)) == 19690720:
             print(100 * noun + verb)
             break
     else:
