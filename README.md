@@ -3,3 +3,4 @@
 * [day 01](day_01)
 * [day 02](day_02)
 * [day 03](day_03)
+* [day 04](day_04)
