@@ -4,7 +4,7 @@ from pathlib import Path
 
 from aocd import get_data
 
-DAY = 4
+DAY = 10
 YEAR = 2019
 
 root_dir = Path(__file__).parent
@@ -17,3 +17,6 @@ if not os.path.exists(day_dir):
 
     shutil.copyfile(root_dir / "template.py", day_dir / "part_1.py")
     Path(day_dir / "part_2.py").touch()
+
+    with open(root_dir / "README.md", "a") as file:
+        file.write(f"\n* [day {DAY:02}](day_{DAY:02})")

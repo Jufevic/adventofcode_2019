@@ -6,3 +6,6 @@
 * [day 04](day_04)
 * [day 05](day_05)
 * [day 06](day_06)
+* [day 07](day_07)
+* [day 08](day_08)
+* [day 09](day_09)
